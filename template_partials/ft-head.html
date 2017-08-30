@@ -1,11 +1,11 @@
 <link rel="stylesheet" href="https://build.origami.ft.com/v2/bundles/css?modules=o-grid@^4.2.0,o-header@^7.0.4,o-footer@^6.0.2,o-typography@^5.0.1,o-colors@^4.0.1,o-tooltip@^2.1.1" />
 <script>
-	var cutsTheMustard = ('querySelector' in document && 'localStorage' in window && 'addEventListener' in window);
-	if (cutsTheMustard) {
-		// Swap the 'core' class on the HTML element for an 'enhanced' one
-		// We're doing it early in the head to avoid a flash of unstyled content
-		document.documentElement.className = document.documentElement.className.replace(/\bcore\b/g, 'enhanced');
-	}
+  var cutsTheMustard = ('querySelector' in document && 'localStorage' in window && 'addEventListener' in window);
+  if (cutsTheMustard) {
+    // Swap the 'core' class on the HTML element for an 'enhanced' one
+    // We're doing it early in the head to avoid a flash of unstyled content
+    document.documentElement.className = document.documentElement.className.replace(/\bcore\b/g, 'enhanced');
+  }
 </script>
 <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
 
@@ -62,9 +62,9 @@
   }
 
 
-	.disclaimer {
-		-webkit-font-smoothing: antialiased;
-	}
+  .disclaimer {
+    -webkit-font-smoothing: antialiased;
+  }
 
   .disclaimer__box {
     position: absolute;
@@ -91,13 +91,13 @@
   }
 
   .disclaimer__paid-post {
-		background-color: #008040;
-		color: white;
-		display: inline-block;
-		font-size: 12px;
-		line-height: normal;
-		padding: 0.2em 0.6em;
-		vertical-align: -1px;
+    background-color: #008040;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    line-height: normal;
+    padding: 0.2em 0.6em;
+    vertical-align: -1px;
   }
 
   .disclaimer__sponsor {
@@ -124,21 +124,21 @@
   }
 
   .disclaimer .o-tooltip-content sup {
-		font-size: 9px;
-		position: absolute;
-		top: 4px;
-	}
+    font-size: 9px;
+    position: absolute;
+    top: 4px;
+  }
 
-	.o-tooltip-close {
-		margin: 0;
-		position: absolute;
-		right: 6px;
-		top: 50%;
-		-webkit-transform: translateY(-50%);
-		-ms-transform: translateY(-50%);
-		-o-transform: translateY(-50%);
-		transform: translateY(-50%);
-	}
+  .o-tooltip-close {
+    margin: 0;
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
 
   @media(max-width: 739px) {
     .disclaimer__box {
